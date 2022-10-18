@@ -11,6 +11,13 @@
     font-family: 'Gilroy-Medium';
     src: url('../fonts/gilroy-medium.otf') format('opentype');
 }
+@font-face {
+    font-family: 'Proxima';
+    src: url('../fonts/proximanova_bold.otf') format('opentype');
+}
+.background {
+    background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
+}
 .body {
     font-family: 'Gilroy-Medium';
 }
@@ -55,6 +62,15 @@ h4{
     color: #FFFFFF;
     margin-right: 80px;
 
+}
+h5{
+    font-family: 'Gilroy-Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px; 
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 /* HEADER */
 .header {
@@ -287,4 +303,85 @@ h4{
     line-height: 24px;
     color: #FFFFFF;
     margin-right: 50px;
+}
+.cafe {
+    height: 775px;
+    width: 100%;
+    background: rgba(64, 60, 59, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-cafe {
+    height: 610px;
+    width: 85%;
+    background: url(../img/picture.png);
+    background-size: 115% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0px;
+}
+.our-cafe-background{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #000000 0%, rgb(0 0 0 / 0%) 100%);
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.cafe-info {
+    height: 100%;
+    width: 605px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.cafe-info > p {
+    font-family: 'Gilroy-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #CFCFCF;
+}
+.button-1 {
+    width: 223px;
+    height: 59px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+}
+.button-1 > p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-left: 60px;
+}
+
+.cafe-statistics{
+    height: 100%;
+    width: 670px;
+}
+.statistics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 670px;
+}
+.statistics-card {
+    width: 228px;
+    height: 228px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(80, 75, 74, 0.9);
+    backdrop-filter: blur(2px);
+    border-radius: 0px;
+    margin: 45px;
 }
